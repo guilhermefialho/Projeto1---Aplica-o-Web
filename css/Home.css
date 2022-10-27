@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fenix&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 100%;
+  text-decoration: none;
+}
+
+header{
+  background-color: #384977;
+  height: 130px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 600px;
+}
+
+.logomarca{
+margin-top: 6px;
+}
+
+.cabeçalho-botao{
+  font-size:15px;
+  font-family:Arial;
+  width:130px;
+  height:45px;
+  border-width:1px;
+  color:#fff;
+  border-color:#095bd6;
+  font-weight:bold;
+  border-top-left-radius:28px;
+  border-top-right-radius:28px;
+  border-bottom-left-radius:28px;
+  border-bottom-right-radius:28px;
+  text-shadow: 1px 1px 0px #2f6627;
+  background:#A4BDE2;
+}
+.cabeçalho-menu{
+  display: flex;
+  gap: 50px;
+}
+
+Body{
+  background-color: #E0E0E0;
+}
+
+section{
+  display: flex;
+  justify-content: space-around;
+}
+
+.faixa{
+  background-color: #A4BDE2;
+  height: 220px;
+  margin-top: 65px;
+}
+
+.main-texto{
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.main-primeira-frase{
+  font-family: 'Fenix', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40px;
+  margin-right: 355px;
+  white-space: nowrap;
+}
+
+.main-segunda-frase{
+  font-family: 'Fenix', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.main-principal{
+  position: relative;
+}
+
+.construtor{
+  position: absolute;
+  margin-left: 787px;
+  margin-top: 32px;
+}
+
+#linha-horizontal {
+  width: 760px;
+  border: 1px solid #949494;
+  margin-left: 82px;
+  margin-top: 25px;
+}
+.predios{
+  margin-top: 120px;
+  height: 160px;
+}
