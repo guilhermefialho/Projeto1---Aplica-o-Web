@@ -1,0 +1,92 @@
+body{
+    background: #E0E0E0;
+      }
+      
+      
+.cabecalho img{
+    position: absolute;
+    width: 210px;
+    height: 260px;
+    left: -35px;
+    top: -50px;
+        
+       
+    }
+
+
+.menu{
+    position:relative;
+    margin: -45px;
+    width: 1180px;
+    background-color: #384977;
+    padding: 100px 100px;
+    margin-left: none;
+    margin-top: none;
+    
+        }
+    
+        .menu li{
+    float: left;
+    list-style-type: none;
+        }
+    
+        .menu li a{
+    color: white;
+    margin-right: 10px;
+    margin-left: 130px;
+    font-size: 20px;
+        }
+
+
+    
+ .area-senha {
+
+    position: absolute;
+    width: 484px;
+    height: 375px;
+    left: 450px;
+    top: 230px;
+    text-align: center;    
+    align-items: center;
+
+ }
+
+ .senha form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+ }
+ .senha input{
+margin-top: 30px; 
+background: rgba(164, 189, 226, 0.7);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border: none;
+
+width: 484px;
+height: 68px;
+left: 478px;
+top: 665px;
+
+ }
+
+ 
+ form [type="submit"]{
+    display: block;
+    background-color: #384977;
+    font-size: 15px; 
+    font-style: normal;
+    width: 200px;
+    height: 56px;
+    text-align: center;
+    color: white;
+              
+    background: #384977;
+    border-radius: 20px;
+            
+    }
+
+ p{
+    font-size: 25px;
+
+ }   
