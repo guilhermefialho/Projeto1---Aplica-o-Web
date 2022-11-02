@@ -469,13 +469,13 @@ border-radius: 20px;
     
   }
 
-  p{
-    
+  .produtos p{
+    position: absolute;
+    font-size: 25px;
+    left: 80px;
+    top: 152px;
 
+    font-family: 'Fenix';
+    font-style: normal;
 
   }
-  
-
-
-  
-
