@@ -25,16 +25,17 @@ body{
     
         }
     
-        .menu li{
+.menu li{
     float: left;
     list-style-type: none;
         }
     
-        .menu li a{
+.menu li a{
     color: white;
     margin-right: 10px;
     margin-left: 130px;
     font-size: 20px;
+    text-decoration: none;
         }
 
 

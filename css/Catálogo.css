@@ -25,12 +25,12 @@ body{
     
         }
     
-        .menu li{
+.menu li{
     float: left;
     list-style-type: none;
         }
     
-        .menu li a{
+.menu li a{
     color: white;
     margin-right: 10px;
     margin-left: 130px;
@@ -39,7 +39,7 @@ body{
         }
 
 
-  .produto1{
+.produto1{
     position: absolute;
     width: 250px;
     height: 355px;
@@ -50,19 +50,19 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }      
 
-  .circuloAmarelo {
+.circuloAmarelo {
     position: absolute;
-width: 183px;
-height: 52px;
-left: 33px;
-top: 230px;
+    width: 183px;
+    height: 52px;
+    left: 33px;
+    top: 230px;
 
 
-background: #FF8A00;
-border-radius: 20px;
+    background: #FF8A00;
+    border-radius: 20px;
   }
 
-  .retanguloAzul {
+.retanguloAzul {
     position: absolute;
     width: 250px;
     height: 75px;
@@ -71,7 +71,7 @@ border-radius: 20px;
     background: #384977;
 
   }
-  .botao1{
+.botao1{
     position: absolute;
     width: 131px;
     height: 37px;
@@ -84,7 +84,7 @@ border-radius: 20px;
     color: white;
   }
  
-  .produto1 img{
+.produto1 img{
     position: absolute;
     width: 226px;
     height: 158px;
@@ -93,7 +93,7 @@ border-radius: 20px;
     
   }
 
-  .produto2{
+.produto2{
     position: absolute;
     width: 250px;
     height: 355px;
@@ -104,19 +104,19 @@ border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }      
 
-  .circuloAmarelo2 {
+.circuloAmarelo2 {
     position: absolute;
-width: 183px;
-height: 52px;
-left: 33px;
-top: 230px;
+    width: 183px;
+    height: 52px;
+    left: 33px;
+    top: 230px;
 
 
-background: #FF8A00;
-border-radius: 20px;
+    background: #FF8A00;
+    border-radius: 20px;
   }
 
-  .retanguloAzul2 {
+.retanguloAzul2 {
     position: absolute;
     width: 250px;
     height: 75px;
@@ -125,7 +125,7 @@ border-radius: 20px;
     background: #384977;
 
   }
-  .botao2{
+.botao2{
     position: absolute;
     width: 131px;
     height: 37px;
@@ -138,7 +138,7 @@ border-radius: 20px;
     color: white;
   }
  
-  .produto2 img{
+.produto2 img{
     position: absolute;
     width: 226px;
     height: 158px;
@@ -147,7 +147,7 @@ border-radius: 20px;
     
   }
    
-  .produto3{
+.produto3{
     position: absolute;
     width: 250px;
     height: 355px;
@@ -158,19 +158,19 @@ border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }      
 
-  .circuloAmarelo3 {
+.circuloAmarelo3 {
     position: absolute;
-width: 183px;
-height: 52px;
-left: 33px;
-top: 230px;
+    width: 183px;
+    height: 52px;
+    left: 33px;
+    top: 230px;
 
 
-background: #FF8A00;
-border-radius: 20px;
+    background: #FF8A00;
+    border-radius: 20px;
   }
 
-  .retanguloAzul3 {
+.retanguloAzul3 {
     position: absolute;
     width: 250px;
     height: 75px;
@@ -179,7 +179,7 @@ border-radius: 20px;
     background: #384977;
 
   }
-  .botao3{
+.botao3{
     position: absolute;
     width: 131px;
     height: 37px;
@@ -192,7 +192,7 @@ border-radius: 20px;
     color: white;
   }
  
-  .produto3 img{
+.produto3 img{
     position: absolute;
     width: 226px;
     height: 158px;
@@ -200,7 +200,7 @@ border-radius: 20px;
     top: 38px;
     
   }
-  .produto4{
+.produto4{
     position: absolute;
     width: 250px;
     height: 355px;
@@ -211,19 +211,19 @@ border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }      
 
-  .circuloAmarelo4 {
+.circuloAmarelo4 {
     position: absolute;
-width: 183px;
-height: 52px;
-left: 33px;
-top: 230px;
+    width: 183px;
+    height: 52px;
+    left: 33px;
+    top: 230px;
 
 
-background: #FF8A00;
-border-radius: 20px;
+    background: #FF8A00;
+    border-radius: 20px;
   }
 
-  .retanguloAzul4 {
+.retanguloAzul4 {
     position: absolute;
     width: 250px;
     height: 75px;
@@ -232,7 +232,7 @@ border-radius: 20px;
     background: #384977;
 
   }
-  .botao4{
+.botao4{
     position: absolute;
     width: 131px;
     height: 37px;
@@ -245,7 +245,7 @@ border-radius: 20px;
     color: white;
   }
  
-  .produto4 img{
+.produto4 img{
     position: absolute;
     width: 226px;
     height: 158px;
@@ -254,7 +254,7 @@ border-radius: 20px;
     
   }
    
-  .produto5{
+.produto5{
     position: absolute;
     width: 250px;
     height: 355px;
@@ -265,19 +265,19 @@ border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }      
 
-  .circuloAmarelo5 {
+.circuloAmarelo5 {
     position: absolute;
-width: 183px;
-height: 52px;
-left: 33px;
-top: 230px;
+    width: 183px;
+    height: 52px;
+    left: 33px;
+    top: 230px;
 
 
-background: #FF8A00;
-border-radius: 20px;
+    background: #FF8A00;
+    border-radius: 20px;
   }
 
-  .retanguloAzul5 {
+.retanguloAzul5 {
     position: absolute;
     width: 250px;
     height: 75px;
@@ -286,7 +286,7 @@ border-radius: 20px;
     background: #384977;
 
   }
-  .botao5{
+.botao5{
     position: absolute;
     width: 131px;
     height: 37px;
@@ -299,7 +299,7 @@ border-radius: 20px;
     color: white;
   }
  
-  .produto5 img{
+.produto5 img{
     position: absolute;
     width: 226px;
     height: 158px;
@@ -308,7 +308,7 @@ border-radius: 20px;
     
   }
 
-  .produto6{
+.produto6{
     position: absolute;
     width: 250px;
     height: 355px;
@@ -319,19 +319,19 @@ border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }      
 
-  .circuloAmarelo6 {
+.circuloAmarelo6 {
     position: absolute;
-width: 183px;
-height: 52px;
-left: 33px;
-top: 230px;
+    width: 183px;
+    height: 52px;
+    left: 33px;
+    top: 230px;
 
 
-background: #FF8A00;
-border-radius: 20px;
+    background: #FF8A00;
+    border-radius: 20px;
   }
 
-  .retanguloAzul6 {
+.retanguloAzul6 {
     position: absolute;
     width: 250px;
     height: 75px;
@@ -340,7 +340,7 @@ border-radius: 20px;
     background: #384977;
 
   }
-  .botao6{
+.botao6{
     position: absolute;
     width: 131px;
     height: 37px;
@@ -353,7 +353,7 @@ border-radius: 20px;
     color: white;
   }
  
-  .produto6 img{
+.produto6 img{
     position: absolute;
     width: 226px;
     height: 158px;
@@ -362,7 +362,7 @@ border-radius: 20px;
     
   }
 
-  .produto7{
+.produto7{
     position: absolute;
     width: 250px;
     height: 355px;
@@ -373,19 +373,19 @@ border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }      
 
-  .circuloAmarelo7 {
+.circuloAmarelo7 {
     position: absolute;
-width: 183px;
-height: 52px;
-left: 33px;
-top: 230px;
+    width: 183px;
+    height: 52px;
+    left: 33px;
+    top: 230px;
 
 
-background: #FF8A00;
-border-radius: 20px;
+    background: #FF8A00;
+    border-radius: 20px;
   }
 
-  .retanguloAzul7 {
+.retanguloAzul7 {
     position: absolute;
     width: 250px;
     height: 75px;
@@ -394,7 +394,7 @@ border-radius: 20px;
     background: #384977;
 
   }
-  .botao7{
+.botao7{
     position: absolute;
     width: 131px;
     height: 37px;
@@ -407,7 +407,7 @@ border-radius: 20px;
     color: white;
   }
  
-  .produto7 img{
+.produto7 img{
     position: absolute;
     width: 226px;
     height: 158px;
@@ -416,7 +416,7 @@ border-radius: 20px;
     
   }
 
-  .produto8{
+.produto8{
     position: absolute;
     width: 250px;
     height: 355px;
@@ -427,19 +427,19 @@ border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }      
 
-  .circuloAmarelo8 {
+.circuloAmarelo8 {
     position: absolute;
-width: 183px;
-height: 52px;
-left: 33px;
-top: 230px;
+    width: 183px;
+    height: 52px;
+    left: 33px;
+    top: 230px;
 
 
-background: #FF8A00;
-border-radius: 20px;
+    background: #FF8A00;
+    border-radius: 20px;
   }
 
-  .retanguloAzul8 {
+.retanguloAzul8 {
     position: absolute;
     width: 250px;
     height: 75px;
@@ -448,7 +448,7 @@ border-radius: 20px;
     background: #384977;
 
   }
-  .botao8{
+.botao8{
     position: absolute;
     width: 131px;
     height: 37px;
@@ -461,7 +461,7 @@ border-radius: 20px;
     color: white;
   }
  
-  .produto8 img{
+.produto8 img{
     position: absolute;
     width: 226px;
     height: 158px;
@@ -470,12 +470,7 @@ border-radius: 20px;
     
   }
 
-  p{
-    
 
-
-  }
-  
 
 
   
