@@ -39,7 +39,7 @@ body{
 
 
     
- .area-senha {
+.area-senha {
 
     position: absolute;
     width: 484px;
@@ -51,22 +51,22 @@ body{
 
  }
 
- .senha form{
+.senha form{
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
  }
- .senha input{
-margin-top: 30px; 
-background: rgba(164, 189, 226, 0.7);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border: none;
+.senha input{
+    margin-top: 30px; 
+    background: rgba(164, 189, 226, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
 
-width: 484px;
-height: 68px;
-left: 478px;
-top: 665px;
+    width: 484px;
+    height: 68px;
+    left: 478px;
+    top: 665px;
 
  }
 
