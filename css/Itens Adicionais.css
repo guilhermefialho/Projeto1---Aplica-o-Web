@@ -1,44 +1,41 @@
-body{
-    background: #E0E0E0;
-      }
-      
-      
-.cabecalho img{
-    position: absolute;
-    width: 210px;
-    height: 260px;
-    left: -35px;
-    top: -50px;
-        
-       
-    }
+@import url("https://fonts.googleapis.com/css2?family=Fenix&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 100%;
+  text-decoration: none;
+}
 
-.menu{
-    position:relative;
-    margin: -45px;
-    width: 1180px;
-    background-color: #384977;
-    padding: 100px 100px;
-    margin-left: none;
-    margin-top: none;
-    
-        }
-    
-        .menu li{
-    float: left;
-    list-style-type: none;
-        }
-    
-        .menu li a{
-    color: white;
-    margin-right: 10px;
-    margin-left: 130px;
-    font-size: 20px;
-    text-decoration: none;
-        }
+header {
+  background-color: #384977;
+  height: 145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
 
+nav {
+  display: flex;
+  gap: 120px;
+}
 
+a {
+  color: rgb(255, 255, 255);
+  font-family: "Fenix", serif;
+  font-style: normal;
+}
+
+body {
+  background-color: #e0e0e0;
+}
+p {
+  margin-top: 20px;
+}
   .produto1{
     position: absolute;
     width: 250px;
