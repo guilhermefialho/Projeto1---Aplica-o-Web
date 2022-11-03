@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Fenix&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 100%;
+  text-decoration: none;
+}
+
+header {
+  background-color: #384977;
+  height: 145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 120px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  font-family: "Fenix", serif;
+  font-style: normal;
+}
+
+body {
+  background-color: #e0e0e0;
+}
+
+main{
+display: flex;
+gap: 200px;
+}
+
+.primeira-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  margin-left: 220px;
+  margin-top: 50px;
+}
+
+h2{
+  font-size: 26px;
+}
+
+.segunda-section{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 100px;
+}
+
+.input {
+  width: 250px;
+  height: 45px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #095bd6;
+  font-weight: bold;
+  background: #a4bde2;
+}
+
+.botao-enviar {
+  width: 200px;
+  height: 45px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #095bd6;
+  font-weight: bold;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  text-shadow: 1px 1px 0px #2f6627;
+  background: #384977;
+}
+
+.input-maior {
+  width: 350px;
+  height: 200px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #095bd6;
+  font-weight: bold;
+  background: #a4bde2;
+}
+
+.form{
+  width: 360px;
+  height: 85px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #095bd6;
+  font-weight: bold;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  text-shadow: 1px 1px 0px #2f6627;
+  background: #384977;
+}
+
+p{
+  margin-left: 40px;
+  margin-top: 15px;
+}
