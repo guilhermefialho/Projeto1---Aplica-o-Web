@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fenix&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 100%;
+  text-decoration: none;
+}
+
+header{
+  background-color: #384977;
+  height: 130px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 600px;
+}
+
+.logomarca{
+margin-top: 6px;
+}
+
+.cabeçalho-botao{
+  font-size:15px;
+  font-family:Arial;
+  width:130px;
+  height:45px;
+  border-width:1px;
+  color:#fff;
+  border-color:#095bd6;
+  font-weight:bold;
+  border-top-left-radius:28px;
+  border-top-right-radius:28px;
+  border-bottom-left-radius:28px;
+  border-bottom-right-radius:28px;
+  text-shadow: 1px 1px 0px #2f6627;
+  background:#A4BDE2;
+}
+.cabeçalho-menu{
+  display: flex;
+  gap: 50px;
+}
+
+Body{
+  background-color: #E0E0E0;
+}
+
+.area-senha {
+
+    position: absolute;
+    width: 484px;
+    height: 375px;
+    left: 450px;
+    top: 200px;
+    text-align: center;    
+    align-items: center;
+
+ }
+
+.senha form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+ }
+.senha input{
+    margin-top: 30px; 
+    background: rgba(164, 189, 226, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+
+    width: 484px;
+    height: 68px;
+    left: 478px;
+    top: 665px;
+
+ }
+
+ 
+ form [type="submit"]{
+    display: block;
+    background-color: #384977;
+    font-size: 15px; 
+    font-style: normal;
+    width: 200px;
+    height: 56px;
+    text-align: center;
+    color: white;
+              
+    background: #384977;
+    border-radius: 20px;
+            
+    }
+
+ p{
+    font-size: 25px;
+
+ }   
