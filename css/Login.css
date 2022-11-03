@@ -12,9 +12,12 @@ background: #E0E0E0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 100px;
 }
-.imagem-logo{
-  margin-left: 165px;
-  margin-top: 100px;
+.imagem-logo img{
+  position: absolute;
+  width: 280px ;
+  left: 70px;
+  top: -12px;
+
 }
   .area-login{
     
