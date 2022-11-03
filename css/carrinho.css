@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 100%;
+  text-decoration: none;
+}
+
+body {
+  background-color: #e0e0e0;
+}
+
+header {
+  background-color: #384977;
+  height: 110px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 350px;
+}
+
+.logomarca {
+  margin-top: 6px;
+}
+
+.icone-carrinho {
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-left: 85px;
+  margin-top: 20px;
+}
+
+hr {
+  background-color: black;
+  width: 85%;
+  height: 2px;
+  margin-left: 86px;
+}
+
+.main-cabeçalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 86px;
+  margin-top: 15px;
+}
+
+.produto {
+  background-color: #ffa800;
+  height: 35px;
+  width: 32%;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-bottom-width: 0px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 170px;
+}
+
+.preço {
+  background-color: #ffa800;
+  height: 35px;
+  width: 18%;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 76px;
+}
+
+.quantidade {
+  background-color: #ffa800;
+  height: 35px;
+  width: 18%;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 62px;
+}
+
+.total {
+  background-color: #ffa800;
+  height: 35px;
+  width: 22.7%;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 123px;
+}
+
+.segundo-main {
+  display: flex;
+  flex-direction: row;
+  margin-left: 86px;
+}
+
+.conteudo-produto {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-top-width: 0px;
+  padding-left: 127.8px;
+  padding-right: 127.8px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.conteudo-preço {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  padding-left: 83px;
+  padding-right: 83px;
+  padding-top: 60px;
+}
+
+.conteudo-quantidade {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  padding-left: 106px;
+  padding-right: 106px;
+  padding-top: 60px;
+}
+
+.conteudo-total {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  padding-left: 103.5px;
+  padding-right: 103.5px;
+  padding-top: 60px;
+}
+
+.section-total {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 694px;
+}
+
+.ultimo-total {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-right-width: 0px;
+  padding-left: 20px;
+  padding-right: 161px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.valor-total {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 209px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.botoes-carrinho {
+  display: flex;
+  gap: 730px;
+  margin-top: 15px;
+  margin-left: 88px;
+}
+
+.botao1 {
+  font-size: 15px;
+  font-family: Arial;
+  width: 280px;
+  height: 45px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #095bd6;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-shadow: 1px 1px 0px #2f6627;
+  background: #384977;
+}
+
+.botao2 {
+  font-size: 15px;
+  font-family: Arial;
+  width: 150px;
+  height: 45px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #095bd6;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-shadow: 1px 1px 0px #2f6627;
+  background: #384977;
+}

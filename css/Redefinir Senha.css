@@ -1,17 +1,14 @@
-body{
-    background: #E0E0E0;
-      }
-      
-      
-.cabecalho img{
-    position: absolute;
-    width: 210px;
-    height: 260px;
-    left: -35px;
-    top: -50px;
-        
-       
-    }
+@import url("https://fonts.googleapis.com/css2?family=Fenix&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 100%;
+  text-decoration: none;
+}
 
 
 .menu{
@@ -22,6 +19,7 @@ body{
     padding: 100px 100px;
     margin-left: none;
     margin-top: none;
+    
         }
     
 .menu li{
@@ -45,7 +43,7 @@ body{
     width: 484px;
     height: 375px;
     left: 450px;
-    top: 230px;
+    top: 200px;
     text-align: center;    
     align-items: center;
 
