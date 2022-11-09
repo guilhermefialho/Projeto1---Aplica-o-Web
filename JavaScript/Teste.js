@@ -1,11 +1,12 @@
-const botaoAltura = document.getElementById ('botaoAltura');
+let nomePessoaMaisVelha = prompt("Digite o nome da pessoa mais velha");
 
-let alturaCliente = prompt ("Qual a Altura?");
-let LarguraCliente = prompt ("Qual a Largura?");
-let preçoCena1 = 129.99;
+let idadePessoaMaisVelha = prompt("Digite a idade da pessoa mais velha");
 
-function Altura () {
-alturaCliente
-}
+let nomePessoaMaisNova = prompt("Digite o nome da pessoa mais nova");
 
-botaoAltura.addEventListener ( 'click', Altura )
+let idadePessoaMaisNova = prompt("Digite a idade da pessoa mais nova");
+
+let diferençaDeIdade = (idadePessoaMaisVelha - idadePessoaMaisNova);
+
+console.log (diferençaDeIdade);
+
