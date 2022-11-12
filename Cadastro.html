@@ -24,16 +24,16 @@
         
 
              <form method="post">
-                  <input type="text" name="nome" placeholder="Nome Completo" autofocus>
-                  <input type="text" name="Email" placeholder="Usuário(Digite seu Email)" autofocus>
-                  <input type="password" name="senha" placeholder="Senha" autofocus>
-                  <input type="number" name="Telefone" placeholder="Telefone" autofocus>
-                  <input type="number" name="CEP" placeholder="CEP" autofocus>
-                  <input type="text" name="endereço" placeholder="Endereço">
+                  <input type="text" name="nome" placeholder="Nome Completo" onchange="onChangeName()" id="nome" autofocus>
+                  <input type="text" name="Email" placeholder="Usuário(Digite seu Email)" onchange="onChangeEmail()" id="email" autofocus>
+                  <input type="password" name="senha" placeholder="Senha" onchange="onChangePassword()" id="senha" autofocus>
+                  <input type="number" name="Telefone" placeholder="Telefone" onchange="onChangeTelefone()" id="telefone" autofocus>
+                  <input type="number" name="CEP" placeholder="CEP" onchange="onChangeCEP()" id="cep" autofocus>
+                  <input type="text" name="endereço" placeholder="Endereço" onchange="onChangeEndereço()" id="endereço" autofocus>
                   <input type="submit" value="Criar conta" class="botao">  
 
             </div>
 
-
+<script src="javascript/Cadastro.js"></script>
 </body>
 </html>
