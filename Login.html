@@ -19,12 +19,14 @@
     <section class="area-login">
       <div class="login">
         <form method="post">
-          <input type="text" name="nome" placeholder="Usuário(Email)" autofocus/>
-          <input type="password" name="senha" placeholder="Sua senha" />
-          <input type="submit" value="Login" class="botao" />
+          <input type="text" name="nome" placeholder="Usuário(Email)" id="email" onchange="ValidarCampos()" autofocus />
+          <input type="password" name="senha" placeholder="Sua senha" id="senha" onchange="ValidarCampos()"/>
+          <input type="submit" value="Login" class="botao" id="botao" disabled="true"/>
         </form>
         <p>Esqueceu sua senha? <a href="a">Redefinir senha</a></p>
       </div>
     </section>
+
+    <script src="javascript/Login.js"></script>
   </body>
 </html>
