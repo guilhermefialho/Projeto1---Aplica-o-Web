@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="css/Medidas.css" />
+    <script src="JavaScript/Medidas.js" defer></script>
     <title>Home</title>
   </head>
-
   <body>
     <header>
       <img src="images/LOGO_PROJETO.png" alt="Logo" />
@@ -17,31 +17,34 @@
         <a href="CARRINHO">CARRINHO</a>
       </nav>
     </header>
-    
     <section class="area-medidas">
       <div class="medidas">
         <p>Insira as medidas de sua área</p>
-
         <form method="post">
-          <input
-            type="number"
+          <input id="input_largura"
+            type ="number"
             name="number"
-            placeholder="Largura(cm)"
+            placeholder="Largura(m)"
             autofocus
           />
-          <input
+          <input id="input_altura"
             type="number"
             name="number"
-            placeholder="Comprimento(cm)"
+            placeholder="Altura(m)"
             autofocus
           />
-          <input
+          <div class="area_do_local">
+          <input id="area_usuario"
             type="number"
             name="number"
-            placeholder="Altura(cm)"
             autofocus
           />
-          <input type="submit" value="Fazer Orçamento" />
+          <p class="texto_area_local">Área (m2)</p>
+          </div>
+          <div class="botoes_form">
+          <input id="send" type="submit" value="Calcular Área" />
+          <button class="botao_orçamento" >Orçamento</button>
+          </div>
         </form>
       </div>
     </section>
