@@ -23,17 +23,17 @@
 
         
 
-             <form method="post">
-                  <input type="text" name="nome" placeholder="Nome Completo" autofocus>
-                  <input type="text" name="Email" placeholder="Usuário(Digite seu Email)" autofocus>
-                  <input type="password" name="senha" placeholder="Senha" autofocus>
-                  <input type="number" name="Telefone" placeholder="Telefone" autofocus>
-                  <input type="number" name="CEP" placeholder="CEP" autofocus>
-                  <input type="text" name="endereço" placeholder="Endereço">
-                  <input type="submit" value="Criar conta" class="botao">  
+             <form action="Medidas.html">
+                  <input type="text" name="nome" placeholder="Nome Completo" onchange="ValidarCampos()" id="nome" autofocus>
+                  <input type="text" name="Email" placeholder="Usuário(Digite seu Email)" onchange="ValidarCampos()" id="email" autofocus>
+                  <input type="password" name="senha" placeholder="Senha" onchange="ValidarCampos()" id="senha" autofocus>
+                  <input type="number" name="Telefone" placeholder="Telefone" onchange="ValidarCampos()" id="telefone" autofocus>
+                  <input type="number" name="CEP" placeholder="CEP" onchange="ValidarCampos()" id="cep" autofocus>
+                  <input type="text" name="endereço" placeholder="Endereço" onchange="ValidarCampos()" id="endereco" autofocus>
+                  <input type="submit" value="Criar conta" class="botao" id="botao" disabled="true">  
 
             </div>
 
-
+<script src="javascript/Cadastro.js"></script>
 </body>
 </html>

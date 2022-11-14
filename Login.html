@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="css/Login.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <link rel="stylesheet" href="css/Login.css" />
   </head>
   <body>
     <div class="area-rectangle">
@@ -16,13 +18,34 @@
 
     <section class="area-login">
       <div class="login">
-        <form method="post">
-          <input type="text" name="nome" placeholder="Usuário(Email)" autofocus/>
-          <input type="password" name="senha" placeholder="Sua senha" />
-          <input type="submit" value="Login" class="botao" />
+        <form action="Medidas.html">
+          <input
+            type="text"
+            name="nome"
+            placeholder="Usuário(Email)"
+            id="email"
+            onchange="ValidarCampos()"
+            autofocus
+          />
+          <input
+            type="password"
+            name="senha"
+            placeholder="Sua senha"
+            id="senha"
+            onchange="ValidarCampos()"
+          />
+          <input
+            type="submit"
+            value="Login"
+            class="botao"
+            id="botao"
+            disabled="true"
+          />
         </form>
         <p>Esqueceu sua senha? <a href="a">Redefinir senha</a></p>
       </div>
     </section>
+
+    <script src="javascript/Login.js"></script>
   </body>
 </html>

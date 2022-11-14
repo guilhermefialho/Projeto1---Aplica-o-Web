@@ -73,6 +73,12 @@ form [type="submit"]{
 
 }
 
+.botao[disabled]{
+   
+  opacity: 0.8;
+
+}
+
 .area-login p{
   font-style: normal;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
