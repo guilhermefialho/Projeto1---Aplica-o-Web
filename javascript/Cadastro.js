@@ -35,7 +35,7 @@
 
         const senha = document.getElementById("senha").value;
 
-        if (!senha) {
+        if (!senha || senha < 6) {
             return false;
         }
 
@@ -84,4 +84,29 @@
         }
 
         return true;
+    }
+
+
+
+    function register() {
+        const email = document.getElementById('email').value
+        const password = document.getElementById('senha').value
+        const nome = document.getElementById('nome').value
+        const telefone = document.getElementById('telefone').value
+        const cep = document.getElementById('cep').value
+        const endereco = document.getElementById('endereco').value
+
+        firebase.auth().createUserWithEmailAndPassword(email, password).then(() => {
+                window.location.href = '../../Medidas.html'
+            }
+
+        ).catch(error => {
+            alert(getErrorMessage(error));
+
+        })
+    }
+
+    function getErrorMessage(error) {
+
+        return error.message;
     }

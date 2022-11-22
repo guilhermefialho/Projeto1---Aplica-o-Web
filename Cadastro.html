@@ -23,17 +23,32 @@
 
         
 
-             <form action="Medidas.html">
+             <form>
                   <input type="text" name="nome" placeholder="Nome Completo" onchange="ValidarCampos()" id="nome" autofocus>
                   <input type="text" name="Email" placeholder="Usuário(Digite seu Email)" onchange="ValidarCampos()" id="email" autofocus>
                   <input type="password" name="senha" placeholder="Senha" onchange="ValidarCampos()" id="senha" autofocus>
                   <input type="number" name="Telefone" placeholder="Telefone" onchange="ValidarCampos()" id="telefone" autofocus>
                   <input type="number" name="CEP" placeholder="CEP" onchange="ValidarCampos()" id="cep" autofocus>
                   <input type="text" name="endereço" placeholder="Endereço" onchange="ValidarCampos()" id="endereco" autofocus>
-                  <input type="submit" value="Criar conta" class="botao" id="botao" disabled="true">  
+                  <input type="button" value="Criar conta" class="botao" id="botao" onclick="register()"  disabled="true">  
 
+
+              </form>
+              
             </div>
 
+
+
 <script src="javascript/Cadastro.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-auth-compat.js"></script>
+
+<script src= "javascript/firebase-init.js"></script>
+
+
+
+
+
 </body>
 </html>

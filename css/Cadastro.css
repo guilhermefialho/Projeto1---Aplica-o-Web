@@ -39,7 +39,7 @@ background-color: #E0E0E0;
 
   }
 
-  form [type="submit"]{
+  form [type="button"]{
     display: block;
     background-color: #384977;
     font-size: 20px; 
