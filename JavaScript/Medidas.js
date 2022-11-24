@@ -1,22 +1,26 @@
 const btn = document.querySelector("#send");
 
-btn.addEventListener("click", function(e) {
-e.preventDefault();
+btn.addEventListener("click", function (e) {
+  e.preventDefault();
 
-const largura = document.querySelector("#input_largura");
+  const largura = document.querySelector("#input_largura");
 
-const larguraUsuario = largura.value;
+  const larguraUsuario = largura.value;
 
-console.log(larguraUsuario);
+  const altura = document.querySelector("#input_altura");
 
-const altura = document.querySelector("#input_altura");
+  const alturaUsuario = altura.value;
 
-const alturaUsuario = altura.value;
+  let areaDoUsuario = larguraUsuario * alturaUsuario;
 
-console.log(alturaUsuario);
+  document.getElementById("area_usuario").value = areaDoUsuario;
 
-let areaDoUsuario = (larguraUsuario * alturaUsuario)
 
-document.getElementById('area_usuario').value = areaDoUsuario;
 
+  let primeiroCalculo = (areaDoUsuario * 124, 99);
+  const botao1 = document.querySelector("#primeiroButton");
+
+  botao1.addEventListener("click", primeiroBotao);
+  function primeiroBotao() {
+  }
 });
