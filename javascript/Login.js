@@ -36,3 +36,31 @@ function senhaValida() {
 
     return true;
 }
+
+function login() {
+
+    const email = document.getElementById('email').value
+    const password = document.getElementById('senha').value
+
+    firebase.auth().signInWithEmailAndPassword(email, password).then(() => {
+                window.location.href = '../../Medidas.html'
+            }
+        
+
+    ).catch(error => {
+        alert(getErrorMessage(error));
+
+    })
+
+}
+
+
+function getErrorMessage(error) {
+
+    if (error.code == "auth/user-not-found") {
+
+        return "Usuário não encontrado"
+    }
+
+    return error.message;
+}

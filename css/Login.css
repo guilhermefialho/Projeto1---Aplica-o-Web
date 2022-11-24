@@ -58,7 +58,7 @@ input::placeholder{
 }
 
 
-form [type="submit"]{
+form [type="button"]{
   display: block;
   background-color: #384977;
   font-size: 20px; 

@@ -18,7 +18,7 @@
 
     <section class="area-login">
       <div class="login">
-        <form action="Medidas.html">
+        <form>
           <input
             type="text"
             name="nome"
@@ -26,32 +26,35 @@
             id="email"
             onchange="ValidarCampos()"
             autofocus
-          />
+          >
           <input
             type="password"
             name="senha"
             placeholder="Sua senha"
             id="senha"
             onchange="ValidarCampos()"
-          />
+          >
           <input
-            type="submit"
+            type="button"
             value="Login"
             class="botao"
             id="botao"
+            onclick = "login()"
             disabled="true"
-          />
+            
+          >
         </form>
         <p>Esqueceu sua senha? <a href="a">Redefinir senha</a></p>
       </div>
     </section>
 
     <script src="javascript/Login.js"></script>
-  </body>
-
-<script>import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";</script>
-<script>import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js";</script>
-
-  <script src="javascript/firebase-init.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-auth-compat.js"></script>
   
+  <script src= "javascript/firebase-init.js"></script>
+
+
+   
+  </body> 
 </html>
