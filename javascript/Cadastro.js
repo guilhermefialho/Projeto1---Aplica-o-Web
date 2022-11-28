@@ -86,27 +86,48 @@ function enderecoValido() {
     return true;
 }
 
-
-
 function register() {
-    const email = document.getElementById('email').value
-    const password = document.getElementById('senha').value
-    const nome = document.getElementById('nome').value
-    const telefone = document.getElementById('telefone').value
-    const cep = document.getElementById('cep').value
-    const endereco = document.getElementById('endereco').value
+    // Get all our input fields
+    email = document.getElementById('email').value
+    password = document.getElementById('senha').value
+    nome = document.getElementById('nome').value
+    telefone = document.getElementById('telefone').value
+    cep = document.getElementById('cep').value
+    endereco = document.getElementById('endereco').value
 
-    firebase.auth().createUserWithEmailAndPassword(email, password).then(() => {
+
+    // Move on with Auth
+    firebase.auth().createUserWithEmailAndPassword(email, password)
+        .then(function () {
+            // Declare user variable
+            var user = auth.currentUser
+
+            // Add this user to Firebase Database
+            var database_ref = database.ref()
+
+            // Create User data
+            var user_data = {
+                email: email,
+                nome: nome,
+                telefone: telefone,
+                cep: cep,
+                endereco: endereco,
+                last_login: Date.now()
+            }
+
+            // Push to Firebase Database
+            database_ref.child('users/' + user.uid).set(user_data)
+
+            // DOne
+            alert('Usuário Criado!!')
+        
             window.location.href = '../../Medidas.html'
-        }
+        })
+        .catch(function (error) {
+            // Firebase will use this to alert of its errors
+            var error_code = error.code
+            var error_message = error.message
 
-    ).catch(error => {
-        alert(getErrorMessage(error));
-
-    })
-}
-
-function getErrorMessage(error) {
-
-    return error.message;
+            alert(error_message)
+        })
 }
