@@ -148,7 +148,7 @@ p{
   gap: 25px;
 }
 
-.botao_catalogo{
+#botao_catalogo{
   display: grid;
   background-color: #384977;
   font-size: 23px; 

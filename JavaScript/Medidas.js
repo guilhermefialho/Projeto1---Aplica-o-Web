@@ -11,16 +11,20 @@ btn.addEventListener("click", function (e) {
 
   const alturaUsuario = altura.value;
 
-  let areaDoUsuario = larguraUsuario * alturaUsuario;
+  const areaDoUsuario = larguraUsuario * alturaUsuario;
 
   document.getElementById("area_usuario").value = areaDoUsuario;
 
-
-
-  let primeiroCalculo = (areaDoUsuario * 124, 99);
-  const botao1 = document.querySelector("#primeiroButton");
-
-  botao1.addEventListener("click", primeiroBotao);
-  function primeiroBotao() {
-  }
 });
+
+const db = firebase.firestore();
+const md = document.querySelector("#area_usuario");
+
+md.addEventListener("click", function (a) {
+  a();
+  let medidas = document.querySelector ('[nome=medidas]').value;
+  db.collection('medidas').add({
+    area:area
+  })
+});
+
