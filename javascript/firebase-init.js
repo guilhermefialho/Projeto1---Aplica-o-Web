@@ -1,16 +1,17 @@
+import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBJvY9idRqKW7harjpTOv65zuJkTdaF89E",
-  authDomain: "projeto-1-f51d1.firebaseapp.com",
-  projectId: "projeto-1-f51d1",
-  storageBucket: "projeto-1-f51d1.appspot.com",
-  messagingSenderId: "368530981141",
-  appId: "1:368530981141:web:1431aff79c9667f7a9a91c"
+  apiKey: "AIzaSyD-IJBEAQeCzXxeE9FFSPM8TWcU54tZuiY",
+  authDomain: "projeto-2-498c4.firebaseapp.com",
+  databaseURL: "https://projeto-2-498c4-default-rtdb.firebaseio.com",
+  projectId: "projeto-2-498c4",
+  storageBucket: "projeto-2-498c4.appspot.com",
+  messagingSenderId: "438008889939",
+  appId: "1:438008889939:web:0845672aed649009917ca6"
 };
-
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 // Initialize variables
 const auth = firebase.auth()
 const database = firebase.database()
-
+const app = initializeApp ( firebaseConfig );
