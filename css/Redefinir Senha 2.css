@@ -82,7 +82,7 @@ Body{
  }
 
  
- form [type="submit"]{
+ form [type="button"]{
     display: block;
     background-color: #384977;
     font-size: 15px; 
@@ -101,3 +101,9 @@ Body{
     font-size: 25px;
 
  }   
+
+ .botao2[disabled]{
+   
+  opacity: 0.8;
+
+}
