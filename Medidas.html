@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Medidas</title>
-    <script src="/JavaScript/Medidas.js" defer></script>
     <link rel="stylesheet" href="css/Medidas.css" />
   </head>
   <body>
@@ -23,54 +22,34 @@
       <div class="medidas">
         <p>Insira as medidas de sua área</p>
         <form method="post">
-          <input id="input_largura"
-            type ="number"
+          <input
+            id="input_largura"
+            type="number"
             name="number"
             placeholder="Largura(m)"
             autofocus
           />
-          <input id="input_altura"
+          <input
+            id="input_altura"
             type="number"
             name="number"
             placeholder="Altura(m)"
             autofocus
           />
           <div class="area_do_local">
-          <input id="area_usuario"
-            type="number"
-            name="number"
-            autofocus
-          />
-          <p class="texto_area_local">Área (m2)</p>
+            <input id="area_usuario" type="number" name="number" autofocus />
+            <p class="texto_area_local">Área (m2)</p>
           </div>
           <div class="botoes_form">
-          <input id="send" type="submit" value="Calcular Área" />
-          <a id="botao_catalogo" href="Catálogo.html">Catálogo</a>
+            <input id="send" type="submit" value="Calcular Área" />
+            <a id="botao_catalogo" href="Catálogo.html">Catálogo</a>
           </div>
         </form>
       </div>
     </section>
-    <script type="module">
-      // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
-      import { initializeApp } from "firebase/app";
-      import { getFirestore } from "firebase/firestore";
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
-    
-      // Your web app's Firebase configuration
-      const firebaseConfig = {
-        apiKey: "AIzaSyBJvY9idRqKW7harjpTOv65zuJkTdaF89E",
-        authDomain: "projeto-1-f51d1.firebaseapp.com",
-        databaseURL: "https://projeto-1-f51d1-default-rtdb.firebaseio.com",
-        projectId: "projeto-1-f51d1",
-        storageBucket: "projeto-1-f51d1.appspot.com",
-        messagingSenderId: "368530981141",
-        appId: "1:368530981141:web:308579b7c3fe63dea9a91c"
-      };
-    
-      // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-    </script>
+    <script src="/JavaScript/Medidas.js" defer></script>
+    <script src="javascript/firebase-init.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
   </body>
 </html>

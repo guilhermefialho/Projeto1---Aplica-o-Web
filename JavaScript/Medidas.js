@@ -11,20 +11,7 @@ btn.addEventListener("click", function (e) {
 
   const alturaUsuario = altura.value;
 
-  const areaDoUsuario = larguraUsuario * alturaUsuario;
+  let areaDoUsuario = larguraUsuario * alturaUsuario;
 
   document.getElementById("area_usuario").value = areaDoUsuario;
-
 });
-
-const db = firebase.firestore();
-const md = document.querySelector("#area_usuario");
-
-md.addEventListener("click", function (a) {
-  a();
-  let medidas = document.querySelector ('[nome=medidas]').value;
-  db.collection('medidas').add({
-    area:area
-  })
-});
-
