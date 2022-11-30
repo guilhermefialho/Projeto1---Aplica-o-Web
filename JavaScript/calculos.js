@@ -30,14 +30,3 @@ firebase.initializeApp(firebaseConfig);
 
 const db = firebase.firestore();
 
-db.collection("medidas").doc("lQNMb9WfJYzkKdhOY7f8").get().then(function(doc){
-
-  if(doc.exists){
-
-    console.log("Existe")
-
-  }else{
-    console.log("Não Existe")
-  }
-
-})
