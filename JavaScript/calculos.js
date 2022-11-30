@@ -23,10 +23,20 @@ const firebaseConfig = {
   projectId: "projeto-2-498c4",
   storageBucket: "projeto-2-498c4.appspot.com",
   messagingSenderId: "438008889939",
-  appId: "1:438008889939:web:0845672aed649009917ca6"
+  appId: "1:438008889939:web:0845672aed649009917ca6",
 };
 
 firebase.initializeApp(firebaseConfig);
 
 const db = firebase.firestore();
 
+db.collection("valores").doc("ambiente").get().then(function(doc){
+
+  if(doc.exists){
+
+    console.log("Existe")
+
+  }else{
+    console.log("Não Existe")
+  }
+})

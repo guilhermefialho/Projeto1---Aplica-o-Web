@@ -11,14 +11,13 @@ firebase.initializeApp(firebaseConfig);
 
 const db = firebase.firestore();
 
-db.collection("medidas").doc("2").get().then(function(doc){
+const form = document.querySelector('form');
 
-  if(doc.exists){
-
-    console.log("Existe")
-
-  }else{
-    console.log("Não Existe")
-  }
-
-})
+form.addEventListener('submit',(e)=>{
+  e.preventDefault();
+  let areaDoCliente = document.querySelector('[name=area]').value;
+  db.collection('Area').add({
+    areaDoCliente: areaDoCliente
+  })
+  alert('Área enviada com sucesso, siga para o Catálogo!');
+});

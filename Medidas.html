@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Medidas</title>
     <link rel="stylesheet" href="css/Medidas.css" />
-    <script src="/JavaScript/calculos.js" defer></script>
+    <script src="/JavaScript/principal.js" defer></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
   </head>
@@ -23,31 +23,12 @@
     </header>
     <section class="area-medidas">
       <div class="medidas">
-        <p>Insira as medidas de sua área</p>
-        <form method="post">
-          <input
-            id="input_largura"
-            type="number"
-            name="number"
-            placeholder="Largura(m)"
-            autofocus
-          />
-          <input
-            id="input_altura"
-            type="number"
-            name="number"
-            placeholder="Altura(m)"
-            autofocus
-          />
-          <div class="area_do_local">
-            <input id="area_usuario" type="number" name="number" autofocus />
-            <p class="texto_area_local">Área (m2)</p>
-          </div>
-          <div class="botoes_form">
-            <input id="send" type="submit" value="Calcular Área" />
+        <p>Insira a sua área</p>
+          <form>
+            <input type="number" name="area"/>
+            <input type="submit"/>
             <a id="botao_catalogo" href="Catálogo.html">Catálogo</a>
-          </div>
-        </form>
+          </form>
       </div>
     </section>
   </body>
