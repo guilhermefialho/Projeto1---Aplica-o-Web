@@ -7,6 +7,7 @@ const firebaseConfig = {
   appId: "1:805468126168:web:75b43770fba2c1ea1f90ad"
 };
 
+
 firebase.initializeApp(firebaseConfig);
 
 const db = firebase.firestore();
@@ -26,5 +27,6 @@ const botao1 = document.querySelector('#Button1');
 
 botao1.addEventListener('click',(e)=>{
   e.preventDefault();
-  alert('obrigado por clicar')
+  alert(clienteArea)
 });
+
