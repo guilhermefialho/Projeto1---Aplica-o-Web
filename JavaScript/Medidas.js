@@ -15,3 +15,14 @@ btn.addEventListener("click", function (e) {
 
   document.getElementById("area_usuario").value = areaDoUsuario;
 });
+
+const botao = document.querySelector("#botao_catalogo");
+const db = firebase.firestore();
+let areaUsuario = 12;
+
+botao.addEventListener("click", function (a) {
+  a.preventDefault();
+  db.collection('area').add({
+    areaUsuario: areaUsuario
+  });
+});
