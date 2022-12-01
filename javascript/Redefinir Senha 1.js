@@ -1,8 +1,8 @@
 function redefinirSenha() {
-    email = document.getElementById('email2').value
+    email = document.getElementById('email').value
     firebase.auth().sendPasswordResetEmail(email).then(() =>
 
- 
+
         {
             alert('Email de recuperação enviado com sucesso!');
 
@@ -18,13 +18,13 @@ function redefinirSenha() {
 function ValidarRedefSenha() {
     const emailValido = emailValido2();
 
-    document.getElementById('botao2').disabled = !emailValido;
+    document.getElementById('botao').disabled = !emailValido;
 
 }
 
 function emailValido2() {
 
-    const email = document.getElementById("email2").value;
+    const email = document.getElementById("email").value;
 
     if (!email) {
         return false;

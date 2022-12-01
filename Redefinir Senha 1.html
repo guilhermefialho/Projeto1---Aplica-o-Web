@@ -24,26 +24,33 @@
 
         <form method="post">
           <input
-            type="name"
-            name="name"
+            type="text"
+            id="email"
             placeholder="Insira seu email de cadastro"
+            onchange="ValidarRedefSenha()"
             autofocus
           />
+
           <input
-            type="password"
-            name="password"
-            placeholder="Senha Atual"
-            autofocus
+            type="button"
+            value="Redefinir Senha"
+            class="botao"
+            id="botao"
+            onclick="redefinirSenha()"
+            disabled="true"
           />
-          <input
-            type="password"
-            name="password"
-            placeholder="Nova Senha"
-            autofocus
-          />
-          <input type="submit" value="Redefinir Senha" />
         </form>
       </div>
     </section>
+
+    <script src="javascript/Redefinir Senha 1.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-database-compat.js"></script>
+
+    <script src="javascript/firebase-init.js"></script>
+
+    
   </body>
 </html>

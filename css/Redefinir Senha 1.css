@@ -67,7 +67,7 @@
  }
 
  
- form [type="submit"]{
+ form [type="button"]{
     display: block;
     background-color: #384977;
     font-size: 15px; 
@@ -86,3 +86,9 @@
     font-size: 25px;
 
  }   
+
+ .botao[disabled]{
+   
+  opacity: 0.8;
+
+}
