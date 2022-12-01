@@ -9,30 +9,37 @@
 </head>
 <body>
   <header>
-    <img src="images/LOGO_PROJETO.png" alt="Logo" />
+    <a href="Medidas.html"><img class="logomarca" src="images/LOGO_PROJETO.png" /></a>
     <nav>
-      <a href="perfil">PERFIL</a>
-      <a href="PEDIDOS ANTERIORES">PEDIDOS ANTERIORES</a>
-      <a href="ITENS ADICIONAIS">ITENS ADICIONAIS</a>
-      <a href="CONTATO">CONTATO</a>
-      <a href="CARRINHO">CARRINHO</a>
+      <a href="Perfil.html">PERFIL</a>
+      <a href="Pedidos Anteriores.html">PEDIDOS ANTERIORES</a>
+      <a href="Itens Adicionais.html">ITENS ADICIONAIS</a>
+      <a href="Contato.html">CONTATO</a>
+      <a href="Carrinho.html">CARRINHO</a>
     </nav>
   </header>
   <main>
     <section class="primeira-section">
-      <h2>ENTRE EM CONTATO</h2>
-      <input class="input" placeholder="EMAIL">
-      <input class="input" placeholder="NOME">
-      <input class="input" placeholder="ASSUNTO">
-      <button class="botao-enviar">ENVIAR</button>
+      <h2>Precisa de ajuda? Entre em Contato Conosco!</h2>
+      <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="text" class="input" name="name" placeholder="Digite seu Nome">
+        <input type="text" class="input" name="email" placeholder="Seu Email">
+        <input type="text" class="input" name="subject" placeholder="Assunto">
+        <textarea class="input-maior" name="message" placeholder="Descrição"></textarea>
+        <input type="hidden" name="accessKey" value="b978f521-7c2c-4805-8206-9a1e768f2077">
+        <input type="hidden" name="subject" value="Contact us from - example.com" />
+        <input type="hidden" name="replyTo" value="@">
+        <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+        <input type="submit" class="botao-enviar" value="Enviar" />
+      </form>
     </section>
     <section class="segunda-section">
-      <input class="input-maior" placeholder="DESCRIÇÃO">
-      <div class="form">
-        <p>TELEFONE: 31 XXXX-XXXX</p>
-        <p>EMAIL: XXXXXXX@HOTMAIL.COM</p>
+      <div class="contato">
+        <p>Telefone/WhatsApp : 31 XXXX-XXXX</p>
+        <p>Email : projetoaplicweb@gmail.com</p>
       </div>
     </section>
   </main>
 </body>
 </html>
+
