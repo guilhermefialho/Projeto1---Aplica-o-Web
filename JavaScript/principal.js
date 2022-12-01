@@ -17,9 +17,7 @@ form.addEventListener('submit',(e)=>{
   })
   alert('Área enviada com sucesso, siga para o Catálogo!');
 });
-
 const botao1 = document.querySelector('#Button1');
-
 botao1.addEventListener('click',(e)=>{
   e.preventDefault();
   db.collection("Area").onSnapshot(function(documentos){
