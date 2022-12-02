@@ -95,33 +95,16 @@ function register() {
     cep = document.getElementById('cep').value
     endereco = document.getElementById('endereco').value
 
-
     // Move on with Auth
     firebase.auth().createUserWithEmailAndPassword(email, password)
         .then(function () {
-            // Declare user variable
-            var user = auth.currentUser
-
-            // Add this user to Firebase Database
-            var database_ref = database.ref()
-
-            // Create User data
-            var user_data = {
-                email: email,
-                nome: nome,
-                telefone: telefone,
-                cep: cep,
-                endereco: endereco,
-                last_login: Date.now()
-            }
-
-            // Push to Firebase Database
-            database_ref.child('users/' + user.uid).set(user_data)
 
             // DOne
             alert('Usuário Criado!!')
         
             window.location.href = '../../Medidas.html'
+
+            
         })
         .catch(function (error) {
             // Firebase will use this to alert of its errors
@@ -129,5 +112,22 @@ function register() {
             var error_message = error.message
 
             alert(error_message)
+
+        
         })
+
+        db.collection("Perfis").add({
+            //uid: currentUser.uid,
+            email: email,
+            nome: nome,
+            telefone: telefone,
+            cep: cep,
+            endereco: endereco,
+          
+        
+      })
+
+
 }
+
+
