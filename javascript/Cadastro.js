@@ -87,6 +87,8 @@ function enderecoValido() {
 }
 
 function register() {
+
+    
     // Get all our input fields
     email = document.getElementById('email').value
     password = document.getElementById('senha').value
@@ -95,10 +97,16 @@ function register() {
     cep = document.getElementById('cep').value
     endereco = document.getElementById('endereco').value
 
+    let currentUser = {}
+
     // Move on with Auth
     firebase.auth().createUserWithEmailAndPassword(email, password)
         .then(function () {
 
+            var user = auth.currentUser
+            currentUser.uid = user.uid
+            var database_ref = database.ref()
+            database_ref.child(user.uid)
             // DOne
             alert('Usuário Criado!!')
         
@@ -115,9 +123,10 @@ function register() {
 
         
         })
+      
 
         db.collection("Perfis").add({
-            //uid: currentUser.uid,
+            
             email: email,
             nome: nome,
             telefone: telefone,
@@ -126,6 +135,7 @@ function register() {
           
         
       })
+
 
 
 }
