@@ -30,7 +30,6 @@ botao1.addEventListener('click',(e)=>{
           });
   });
 });
-
 form.addEventListener('submit',(e)=>{
   e.preventDefault();
   let areaDoCliente = document.querySelector('[number=area]').value;
@@ -49,6 +48,132 @@ botao2.addEventListener('click',(e)=>{
         const dados = doc.data()
         let key = dados.areaDoCliente
         alert("R$ "+((key,Number(key)) * 155))}
+          });
+  });
+});
+form.addEventListener('submit',(e)=>{
+  e.preventDefault();
+  let areaDoCliente = document.querySelector('[number=area]').value;
+  db.collection('Area').add({
+    areaDoCliente: areaDoCliente
+  })
+  alert('Área enviada com sucesso, siga para o Catálogo!');
+});
+const botao3 = document.querySelector('#Button3');
+botao3.addEventListener('click',(e)=>{
+  e.preventDefault();
+  db.collection("Area").onSnapshot(function(documentos){
+    documentos.docChanges().forEach(function (changes){
+      if(changes.type === "added"){
+        const doc = changes.doc
+        const dados = doc.data()
+        let key = dados.areaDoCliente
+        alert("R$ "+((key,Number(key)) * 118))}
+          });
+  });
+});
+form.addEventListener('submit',(e)=>{
+  e.preventDefault();
+  let areaDoCliente = document.querySelector('[number=area]').value;
+  db.collection('Area').add({
+    areaDoCliente: areaDoCliente
+  })
+  alert('Área enviada com sucesso, siga para o Catálogo!');
+});
+const botao4 = document.querySelector('#Button4');
+botao4.addEventListener('click',(e)=>{
+  e.preventDefault();
+  db.collection("Area").onSnapshot(function(documentos){
+    documentos.docChanges().forEach(function (changes){
+      if(changes.type === "added"){
+        const doc = changes.doc
+        const dados = doc.data()
+        let key = dados.areaDoCliente
+        alert("R$ "+((key,Number(key)) * 129))}
+          });
+  });
+});
+form.addEventListener('submit',(e)=>{
+  e.preventDefault();
+  let areaDoCliente = document.querySelector('[number=area]').value;
+  db.collection('Area').add({
+    areaDoCliente: areaDoCliente
+  })
+  alert('Área enviada com sucesso, siga para o Catálogo!');
+});
+const botao5 = document.querySelector('#Button5');
+botao5.addEventListener('click',(e)=>{
+  e.preventDefault();
+  db.collection("Area").onSnapshot(function(documentos){
+    documentos.docChanges().forEach(function (changes){
+      if(changes.type === "added"){
+        const doc = changes.doc
+        const dados = doc.data()
+        let key = dados.areaDoCliente
+        alert("R$ "+((key,Number(key)) * 169))}
+          });
+  });
+});
+form.addEventListener('submit',(e)=>{
+  e.preventDefault();
+  let areaDoCliente = document.querySelector('[number=area]').value;
+  db.collection('Area').add({
+    areaDoCliente: areaDoCliente
+  })
+  alert('Área enviada com sucesso, siga para o Catálogo!');
+});
+const botao6 = document.querySelector('#Button6');
+botao6.addEventListener('click',(e)=>{
+  e.preventDefault();
+  db.collection("Area").onSnapshot(function(documentos){
+    documentos.docChanges().forEach(function (changes){
+      if(changes.type === "added"){
+        const doc = changes.doc
+        const dados = doc.data()
+        let key = dados.areaDoCliente
+        alert("R$ "+((key,Number(key)) * 132))}
+          });
+  });
+});
+form.addEventListener('submit',(e)=>{
+  e.preventDefault();
+  let areaDoCliente = document.querySelector('[number=area]').value;
+  db.collection('Area').add({
+    areaDoCliente: areaDoCliente
+  })
+  alert('Área enviada com sucesso, siga para o Catálogo!');
+});
+const botao7 = document.querySelector('#Button7');
+botao7.addEventListener('click',(e)=>{
+  e.preventDefault();
+  db.collection("Area").onSnapshot(function(documentos){
+    documentos.docChanges().forEach(function (changes){
+      if(changes.type === "added"){
+        const doc = changes.doc
+        const dados = doc.data()
+        let key = dados.areaDoCliente
+        alert("R$ "+((key,Number(key)) * 139))}
+          });
+  });
+});
+form.addEventListener('submit',(e)=>{
+  e.preventDefault();
+  let areaDoCliente = document.querySelector('[number=area]').value;
+  db.collection('Area').add({
+    areaDoCliente: areaDoCliente
+  })
+  alert('Área enviada com sucesso, siga para o Catálogo!');
+});
+const botao8 = document.querySelector('#Button8');
+botao8.addEventListener('click',(e)=>{
+  e.preventDefault();
+  db.collection("Area").onSnapshot(function(documentos){
+    documentos.docChanges().forEach(function (changes){
+      if(changes.type === "added"){
+        const doc = changes.doc
+        const dados = doc.data()
+        let key = dados.areaDoCliente
+        alert("R$ "+((key,Number(key)) * 147))}
           });
   });
 });
