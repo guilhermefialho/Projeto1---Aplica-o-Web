@@ -26,12 +26,29 @@ botao1.addEventListener('click',(e)=>{
         const doc = changes.doc
         const dados = doc.data()
         let key = dados.areaDoCliente
-        console.log((key,Number(key)) * 124.99)}
-          })
-        let resposta = confirm("escolhido com sucesso, prosseguir pro carrinho?")
-        if(resposta == true){
-          window.location.href = "Carrinho.html";
-        } else {
-      };
+        alert("R$ "+((key,Number(key)) * 124))}
+          });
+  });
+});
+
+form.addEventListener('submit',(e)=>{
+  e.preventDefault();
+  let areaDoCliente = document.querySelector('[number=area]').value;
+  db.collection('Area').add({
+    areaDoCliente: areaDoCliente
+  })
+  alert('Área enviada com sucesso, siga para o Catálogo!');
+});
+const botao2 = document.querySelector('#Button2');
+botao2.addEventListener('click',(e)=>{
+  e.preventDefault();
+  db.collection("Area").onSnapshot(function(documentos){
+    documentos.docChanges().forEach(function (changes){
+      if(changes.type === "added"){
+        const doc = changes.doc
+        const dados = doc.data()
+        let key = dados.areaDoCliente
+        alert("R$ "+((key,Number(key)) * 155))}
+          });
   });
 });

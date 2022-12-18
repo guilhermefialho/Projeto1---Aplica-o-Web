@@ -77,6 +77,10 @@ body {
   color: white;
 }
 
+.botao {
+  color: #a4bde2;
+}
+
 .produto1 img {
   position: absolute;
   width: 226px;
